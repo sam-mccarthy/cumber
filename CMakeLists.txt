@@ -3,4 +3,9 @@ project(cumber C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(cumber main.c)
+add_executable(cumber main.c
+        mnist.c
+        mnist.h
+        feedforward.c
+        feedforward.h
+)
